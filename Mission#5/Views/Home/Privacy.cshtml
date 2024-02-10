@@ -1,0 +1,23 @@
+﻿
+<main>
+    <div class="calculator-container">
+        <h1>Calculate Tutoring Fees</h1>
+        <div>
+            <!-- User input's number of hours -->
+            <label for="hours">Number of Hours:</label>
+            <input type="number" id="hours" min="1" step="1">
+        </div>
+        <div>
+            <!--  non-editable box that shows how much I charge per hour -->
+            <label>Hourly Rate:</label>
+            <input type="text" id="hourly-rate" value="$30" readonly>
+        </div>
+        <!-- Calc Button -->
+        <button id="calculate-btn">Calculate Total</button>
+        <div>
+            <!-- Output box -->
+            <label>Total:</label>
+            <input type="text" id="total" readonly>
+        </div>
+    </div>
+</main>
